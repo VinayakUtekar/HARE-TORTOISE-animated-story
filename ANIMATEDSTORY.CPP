@@ -17,12 +17,12 @@ int main()
     trees();
     int Ax=730;
 
-//HARE
+//HARE INPUT VALUES
     int h1=170,h2=175,h3=175,h4=172,h5=185,h6=192,h7=65,h8=130,h9=130,h10=160;
     int h11=167,h12=175,h13=182,h14=102,h15=108,h16=120,h17=125;
     int hf1=140,hf2=170,hf3=170,hf4=102,hf5=120,hf6=102,hf7=160,hf8=167,hf9=175;
 
-//TORTOISE
+//TORTOIS INPUT VALUES
     int T1=100,T2=50,T3=150,T4=70,T5=85,T6=85,T7=115,T8=115,T9=130,T10=90,T11=65;
     int T12=80,T13=80,T14=70,T15=70,T16=90,T17=80,T18=90,T19=110,T20=110,T21=120;
     int T22=100,T23=120,T24=135,T25=120,T26=130,T27=130,T28=85,T29=60,T30=60;
@@ -31,7 +31,7 @@ int main()
     int T50=135,T51=135,T52=135,T53=295,T54=146,T55=170,T56=178,T57=180,T58=160;
     int T59=185;
 
-
+// HARE CHARACTER
     setcolor(DARKGRAY);
     setfillstyle(SOLID_FILL,WHITE);
     ellipse(h1, 365,355,200,5,18);//left ears
@@ -62,7 +62,7 @@ int main()
     floodfill(hf9, 428,DARKGRAY); //CLEAR left hand and palm
     setcolor(WHITE);
 
-
+    //TORTOISE CHARACTER
     arc(T1,550,0,180,50); // tortoise shell
     line(T2,550,T3,550); // horizontal line below shell
     setfillstyle(SOLID_FILL,BROWN);
@@ -107,7 +107,7 @@ int main()
     floodfill(T58,520,WHITE);
     ellipse(T59,515,230,320,5,3);// smile
 
-
+//MOVING ANIMATION 
     while(1)
     {
         cleardevice();
@@ -194,7 +194,7 @@ int main()
             floodfill(hf9++, 428,DARKGRAY); //CLEAR left hand and palm
             setcolor(WHITE);
         }
-//        hare
+        //hare
         setfillstyle(SOLID_FILL,WHITE);
         setcolor(DARKGRAY);
         ellipse(h1, 365,355,200,5,18);//left ears
@@ -446,7 +446,7 @@ void trees()
     line(990,200,1020,200);
     floodfill(1005,135,WHITE);
 
-    //4th small zaad
+    //4th small TREE
     setfillstyle(SOLID_FILL,BROWN);
     line(1120,200,1120,175);
     line(1135,200,1135,175);
@@ -464,7 +464,7 @@ void trees()
     line(1120,200,1135,200);
     floodfill(1128,130,WHITE);
 
-    //4 bada zzaaad
+    //4 BIG TREE
     setfillstyle(SOLID_FILL,BROWN);
     line(1240,200,1240,150);
     line(1270,200,1270,150);
@@ -485,7 +485,7 @@ void trees()
     line(1290,90,1255,40);
     line(1240,200,1270,200);
     floodfill(1248,130,WHITE);
-
+    //APPLES
     setfillstyle(SOLID_FILL,RED);
     ellipse(630,195,0,360,10,10);
     line(630,185,630,180);
