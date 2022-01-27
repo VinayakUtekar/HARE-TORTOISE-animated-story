@@ -95,52 +95,14 @@ int main()
     setfillstyle(SOLID_FILL,2);
     floodfill(160,520,WHITE);
     ellipse(185,515,230,320,5,3);// smile
-
-
-//    while(1)
-//    {
-//        cleardevice();
-//        delay(5);
-//        setcolor(DARKGRAY);
-//        setfillstyle(SOLID_FILL,WHITE);
-//        ellipse(h1++, 365,355,200,5,18);//left ears
-//        ellipse(h2++, 365, 335,140,5,18);//right ears
-//        circle(h3++,385,3);//eye
-//        ellipse(h4++,390, 350,340,15,20);//head
-//        ellipse(h5++,395, 260,80,13,7);// nose
-//        ellipse(h6++,395,110,200,3,3);//mouth
-//        ellipse(h7++, 408,50,320,25,5);//tail
-//        ellipse(h8++, 410,55,170,50,30);//upper body
-//        ellipse(h9++, 410, 180,10,50,30);//lower body
-//        ellipse(h10++, 435, 330,305,5,20);// right hand
-//        ellipse(h11++, 450, 145,115,10,6);//right palm
-//        ellipse(h12++, 432, 340,290,5,10);//left hand
-//        ellipse(h13++, 440, 180, 120,10,5);// left palm
-//        ellipse(h14++, 440, 340,300,5,15);//right back leg
-//        ellipse(h15++, 450, 180,120,10,5);//right back foot
-//        ellipse(h16++, 443, 340,280,5,6);//left back leg
-//        ellipse(h17++, 448, 180,130,7,4);// left back foot
-//        floodfill(hf1++,410,DARKGRAY); // CLEAR body and tail
-//        floodfill(hf2++,400,DARKGRAY);  // CLEAR face and nose
-//        floodfill(hf3++,360,DARKGRAY); // CLEAR both ears
-//        floodfill(hf4++,440,DARKGRAY); //CLEAR right leg and foot
-//        floodfill(hf5++, 443,DARKGRAY);//CLEAR left leg and foot
-//        floodfill(hf6++,430,DARKGRAY); //CLEAR right leg joint
-//        floodfill(hf7++,423,DARKGRAY);// CLEAR right hand joint
-//        floodfill(hf8++,450,DARKGRAY);//CLEAR right hand and palm
-//        floodfill(hf9++, 428,DARKGRAY); //CLEAR left hand and palm
-//        setcolor(WHITE);
-//    }
     circle(700,420,10);
-
     line(1100,250,1100,700); //END line
-
     circle (1250,500,10);
     getch();
     closegraph();
     return 0;
 }
-
+//trees
 void trees()
 {
             // 1ST TREE
@@ -262,7 +224,7 @@ void trees()
     line(1040,90,1005,50);
     line(990,200,1020,200);
 
-    //4th small zaad
+    //4th small tree
     line(1120,200,1120,175);
     line(1135,200,1135,175);
     line(1110,175,1145,175);
